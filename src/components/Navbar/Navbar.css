@@ -111,6 +111,31 @@
     .navbar-menu{ 
         display: none;
         
-    }  
+    }   
+    .navbar-right img{ 
+        width: 30px;
+        
+    }   
+    .navbar-search-icon img{
+        width: 40px ;
+    } 
+    .navbar-search-icon .dot{
+         
+        position: absolute; 
+    min-width: 8px;
+    min-height: 8px; 
+    
+    border-radius: 4px;
+    top: -2px;
+    right: 5px;
+    } 
+    .navbar-right button{
+        font-size: 12px; 
+        border: 1.5x solid rgb(0, 8, 0); 
+        padding: 2px 4px;
+    }
+ 
+    
+
     
 }
