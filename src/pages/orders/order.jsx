@@ -33,7 +33,7 @@ const order = () => {
     </div> 
     <div className='placeorder-right'>  
       <div className="cart-total">
-          <h2>Cart Total</h2>
+          <h2>Cart Total </h2>
           <div> 
 
             <div className="cart-total-details">
