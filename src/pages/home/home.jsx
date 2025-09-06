@@ -1,7 +1,7 @@
 import React, { useState } from 'react' 
 import './home.css'
 import Header from '../../components/Header/Header' 
-import Exploremenu from '../../components/exploremenu/exploremenu'
+import Exploremenu from '../../components/exploremenu/Exploremenu'
 import FoodDisplay from '../../components/FoodDisplay/FoodDisplay'
 import AppDownload from '../../components/AppDownload/AppDownload'
 
