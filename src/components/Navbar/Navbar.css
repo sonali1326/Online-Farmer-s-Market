@@ -12,7 +12,7 @@
 .navbar a {
   text-decoration: none;  /* removes underline */
   color: black;           /* set text color */
-  font-weight: 500;       /* optional: make it look clean */
+  font-weight: 400;       /* optional: make it look clean */
 } 
 
 
@@ -33,18 +33,18 @@
 .navbar button {
     background: transparent; 
     font-size: 18px;  
-    font-weight: 500;
+    font-weight: 350;
     color: rgba(13, 3, 3, 0.988); 
-    border: 3px solid rgb(0, 8, 0);
+    border: 2px solid rgb(0, 8, 0);
     padding: 2px 4px;
     border-radius: 5px;
     cursor: pointer; 
-    transition: 0.4s; 
+    transition: 0.3s; 
 
 } 
 .navbar button:hover{
     background-color: rgb(75, 125, 75); 
-    border-color: rgb(75, 125, 75) ;
+
 } 
 .navbar .active{
     padding-bottom: 2px; 

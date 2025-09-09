@@ -73,26 +73,7 @@ export const menu_list=[
     menu_name: "Fruits",
     menu_img: fruits
   } 
-  // {
-  //   menu_name: "grapes", 
-  //   menu_img:  grapes
-  // },
-  // {
-  //   menu_name: "strawberries", 
-  //   menu_img: strawberries
-  // },
-  // {
-  //   menu_name: "bananas", 
-  //   menu_img:  bananas
-  // },
-  // {
-  //   menu_name: "onions", 
-  //   menu_img:onions 
-  // }, 
-  // {
-  //   menu_name: "carrots",
-  //   menu_img: carrots
-  // }
+  
 ] 
 export const food_list=[ 
   { 
