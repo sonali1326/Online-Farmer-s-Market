@@ -14,7 +14,7 @@ const StoreContextProvider=(props)=>{
         }
     }  
 
-    const removefromcart=(itemId)=>{  
+    const removefromcart=(itemId)=>{    
         setCartItems((prev)=>({...prev,[itemId]:prev[itemId]-1}))
     } 
     const getTotalCartAmount=()=>{
