@@ -8,5 +8,5 @@ export default defineConfig(({ mode }) => ({
     tailwindcss(),
     react(),
   ],
-  base: mode === "production" ? "/Online-Farmer-s-Market/" : "/", // ✅ works now
+  
 }))
