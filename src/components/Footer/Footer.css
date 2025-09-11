@@ -50,15 +50,35 @@
 .logo{
     padding-top: 0.1px;
 } 
-@media (max-width:750px){
-    .footer-content{
+@media (max-width:750px){ 
+    
+    .footer-content{ 
+        margin-top: -50px;
         display: flex;
         flex-direction: column;
         gap: 35px;
 
+    }  
+    .footer-content-left .logo{
+        margin-left: -20px;
     } 
+    .footer-content-left p{
+        margin-top: -50px; 
+        font-size: 15px; 
+
+    } 
+    .footer-content-center { 
+        margin-top: 20px;  
+        font-size: 15px;
+        /* font-size: small; */
+   } 
+   .footer-content-right{
+      margin-top: 8px; 
+      font-size: 15px;
+   }
     .footer-coopyright{
-        text-align: center;
+        text-align: center; 
+        font-size: 10px;
     } 
     .footer-content li{
         margin-left: -30px;

@@ -45,9 +45,13 @@
   background-color: rgb(75, 125, 75); 
   border-color: rgb(75, 125, 75) ;
 } 
-@media (max-width: 1050px){ 
+@media (max-width: 1050px){   
+    .header{
+        height: 38vw;
+    }
     
-    .header-content{
+    .header-content{ 
+        
         max-width: 45%;
     }
 
@@ -55,7 +59,8 @@
 @media (max-width: 750px){ 
     
     .header-content{
-        max-width: 65%;
+        max-width: 65%; 
+       
     } 
     .header-content p{ 
         display: none;
