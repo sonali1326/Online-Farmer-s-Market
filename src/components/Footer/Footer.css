@@ -11,7 +11,10 @@
     
     
 
-} 
+}  
+.footer-content-left .logo {
+    margin-left: -20px;
+}
 .footer-content{
     width: 100%;
     display: grid;
@@ -71,7 +74,15 @@
         margin-top: 20px;  
         font-size: 15px;
         /* font-size: small; */
+   }  
+   .footer-content-center ul{
+         margin-top: -20px; 
+
    } 
+   .footer-content-right ul{ 
+    margin-top: -20px;
+
+   }
    .footer-content-right{
       margin-top: -2px; 
       font-size: 15px;
